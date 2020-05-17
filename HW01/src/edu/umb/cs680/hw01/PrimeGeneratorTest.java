@@ -8,7 +8,7 @@ public class PrimeGeneratorTest {
 	
 	@Test
 	public void primeGenerator1to15() {
-		PrimeGenerator gen = new PrimeGenerator(1, 15);
+		PrimeGenerator gen  = new PrimeGenerator(1, 15);
 		gen.generatePrimes();
 		Long[] expectedPrimes = {2L, 3L, 5L, 7L, 11L, 13L};
 		assertArrayEquals( expectedPrimes, gen.getPrimes().toArray() );
