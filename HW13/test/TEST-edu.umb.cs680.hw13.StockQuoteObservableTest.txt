@@ -1,0 +1,35 @@
+Testcase: edu.umb.cs680.hw13.StockQuoteObservableTest
+Test: checkDijaQuote() took 5 milli sec(s)
+Tests run: 1, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 5 milli sec(s)
+------------- Standard Output ---------------
+
+ ThreeDObserver Notified:
+ Ticker: KRISHNA
+ Quote: 30.0
+
+
+ TableObserver Notified:
+ Ticker: KRISHNA
+ Quote: 30.0
+
+
+ Sent to piechart notification: 
+ Ticker:KRISHNA
+ Quote: 30.0
+
+
+ ThreeDObserver Notified:
+ Ticker: ASDF
+ Quote: 40.0
+
+
+ TableObserver Notified:
+ Ticker: ASDF
+ Quote: 40.0
+
+
+ Sent to piechart notification: 
+ Ticker:ASDF
+ Quote: 40.0
+
+------------- ---------------- ---------------
