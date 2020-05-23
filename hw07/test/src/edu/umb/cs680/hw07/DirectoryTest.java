@@ -67,13 +67,7 @@ public class DirectoryTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void verifyDirectoryEqualityHome() {
-        String[] expected = {"home", "true", "0", "3", "40"};
-        String[] actual = dirToStringArray(home);
-        assertArrayEquals(expected, actual);
-    }
-
+    
     @Test
     public void verifyDirectoryEqualityCode() {
         String[] expected = {"code", "true", "0", "2", "20"};
@@ -86,6 +80,13 @@ public class DirectoryTest {
         LinkedList<FSElement> expected = new LinkedList<>(Arrays.asList(applications, home));
         LinkedList<FSElement> actual = root.getChildren();
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void verifyDirectoryEqualityHome() {
+        String[] expected = {"home", "true", "0", "3", "40"};
+        String[] actual = dirToStringArray(home);
+        assertArrayEquals(expected, actual);
     }
 
 
