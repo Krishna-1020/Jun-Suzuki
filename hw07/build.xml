@@ -42,7 +42,7 @@
 	      </javac>
 	   </target>
 	   <target name="run" depends="compile">
-	      <java classname="edu.umb.cs680.hw07.Car" classpathref="classpath" fork="true" />
+	      
 	      <junitlauncher printSummary="true">
 	         <classpath refid="classpath" />
 	         <testclasses outputdir="${test.reports}">
