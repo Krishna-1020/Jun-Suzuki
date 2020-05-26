@@ -23,6 +23,6 @@ public class FileSystem {
         this.rootDirs.add(rootDir);
     }
     public static void main(String[] args) {
-        System.out.println("The File has run completely");
+        System.out.println("The FileSystem has run completely");
     }
 }
