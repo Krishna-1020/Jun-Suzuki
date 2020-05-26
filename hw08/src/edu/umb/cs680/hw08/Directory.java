@@ -99,4 +99,7 @@ public class Directory extends FSElement {
 
         FileSystem.getFileSystem().addRootDir(root);
     }
+    public static void main(String[] args) {
+        System.out.println("The Directory has run successfully");
+    }
 }
