@@ -25,4 +25,7 @@ public class Link extends FSElement {
     public FSElement getTarget() {
         return this.tar;
     }
+    public static void main(String[] args) {
+        System.out.println("The Link has run successfully");
+    }
 }
