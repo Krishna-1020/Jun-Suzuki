@@ -22,4 +22,7 @@ public class FileSystem {
     public void addRootDir(Directory rootDir) {
         this.rootDirs.add(rootDir);
     }
+    public static void main(String[] args) {
+        System.out.println("The File has run completely");
+    }
 }
